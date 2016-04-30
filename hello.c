@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "common.h"
 
 int main(void)
 {
-	printf("Hello RepRap.");
+	sayHello("my fist repository");
 	
 	return 0;
 }
